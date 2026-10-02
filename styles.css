@@ -1,3 +1,7 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 h1 {
     font-size: 30px;
     font-family: sans-serif;
@@ -10,18 +14,19 @@ h2 {
 
 nav, footer, aside {
     border: 1px solid black;
-    color: purple;
+    color: rgb(128, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     display: block;
     text-align: center;
 }
 
 article {
-    width: 500px;
-    margin: auto;
     border: black 1px solid;
 }
 body {
-    background-color: aqua;
-    text-align: right;
+    background-color:rgb(196, 191, 207);
+    text-align: center;
+}
+.division {
+    margin: auto;
 }
